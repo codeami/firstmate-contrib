@@ -1,0 +1,9 @@
+ok - list names only regular topic notes and writes nothing
+ok - approve files an entry with provenance, skip is recorded, sources untouched
+ok - reruns are quiet and an edited note is asked again
+ok - quit, end of input and unclear answers record nothing
+ok - a note without frontmatter is filed under its file name
+ok - an existing learnings file keeps its content
+ok - only the home's own store is read unless a directory is named
+ok - a missing Claude memory directory is a no-op
+ok - missing FM_HOME, a task pane, a bad argument and non-primary homes are refused
