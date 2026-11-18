@@ -1,0 +1,5 @@
+Real bin/fm-brief.sh scaffolds in a temp FM_HOME:
+scout brief line 90: "Before you append `done`, run `plain-check` on your report if that tool is on PATH; ... If the tool is absent, skip this step."
+ship brief: no plain-check
+secondmate brief: no plain-check
+tests/fm-brief.test.sh: "ok - fm-brief.sh: only the scout brief carries the plain-check line", no failures.
